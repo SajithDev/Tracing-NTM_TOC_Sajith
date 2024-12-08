@@ -1,0 +1,12 @@
+Machine Name: a+ Nondeterministic
+Initial String: aaa
+Tree Depth: 5
+Total Transitions Simulated: 11
+Measured nondeterminism: 2.2
+String accepted in 5
+q1aaa
+aq1aa aq2aa
+aaq1a aaq2a aqrejectaa
+aaaq1_ aaaq2_ aaqrejecta
+aaaqreject_ aaq3a_
+

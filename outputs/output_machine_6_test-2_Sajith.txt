@@ -1,0 +1,73 @@
+Machine Name: {t | t has the same number of 0's and 1's} Deterministic
+Initial String: 010111001011
+Tree Depth: 66
+Total Transitions Simulated: 66
+Measured nondeterminism: 1.0
+String rejected in 66
+q0010111001011
+_q110111001011
+q3_x0111001011
+_q4x0111001011
+_xq40111001011
+_xxq1111001011
+_xq3xx11001011
+_q3xxx11001011
+q3_xxx11001011
+_q4xxx11001011
+_xq4xx11001011
+_xxq4x11001011
+_xxxq411001011
+_xxxxq21001011
+_xxxx1q2001011
+_xxxxq31x01011
+_xxxq3x1x01011
+_xxq3xx1x01011
+_xq3xxx1x01011
+_q3xxxx1x01011
+q3_xxxx1x01011
+_q4xxxx1x01011
+_xq4xxx1x01011
+_xxq4xx1x01011
+_xxxq4x1x01011
+_xxxxq41x01011
+_xxxxxq2x01011
+_xxxxxxq201011
+_xxxxxq3xx1011
+_xxxxq3xxx1011
+_xxxq3xxxx1011
+_xxq3xxxxx1011
+_xq3xxxxxx1011
+_q3xxxxxxx1011
+q3_xxxxxxx1011
+_q4xxxxxxx1011
+_xq4xxxxxx1011
+_xxq4xxxxx1011
+_xxxq4xxxx1011
+_xxxxq4xxx1011
+_xxxxxq4xx1011
+_xxxxxxq4x1011
+_xxxxxxxq41011
+_xxxxxxxxq2011
+_xxxxxxxq3xx11
+_xxxxxxq3xxx11
+_xxxxxq3xxxx11
+_xxxxq3xxxxx11
+_xxxq3xxxxxx11
+_xxq3xxxxxxx11
+_xq3xxxxxxxx11
+_q3xxxxxxxxx11
+q3_xxxxxxxxx11
+_q4xxxxxxxxx11
+_xq4xxxxxxxx11
+_xxq4xxxxxxx11
+_xxxq4xxxxxx11
+_xxxxq4xxxxx11
+_xxxxxq4xxxx11
+_xxxxxxq4xxx11
+_xxxxxxxq4xx11
+_xxxxxxxxq4x11
+_xxxxxxxxxq411
+_xxxxxxxxxxq21
+_xxxxxxxxxx1q2_
+_xxxxxxxxxx1qrej_
+

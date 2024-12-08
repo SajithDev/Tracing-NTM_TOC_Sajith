@@ -1,0 +1,12 @@
+Machine Name: a+ Deterministic
+Initial String: aaab
+Tree Depth: 5
+Total Transitions Simulated: 5
+Measured nondeterminism: 1.0
+String rejected in 5
+q1aaab
+aq1aab
+aaq1ab
+aaaq1b
+aaaqrejectb
+

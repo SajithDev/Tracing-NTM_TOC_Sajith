@@ -1,0 +1,50 @@
+Machine Name: {t | t has the same number of 0's and 1's} Deterministic
+Initial String: 01011100
+Tree Depth: 43
+Total Transitions Simulated: 44
+Measured nondeterminism: 1.0
+String accepted in 43
+q001011100
+_q11011100
+q3_x011100
+_q4x011100
+_xq4011100
+_xxq111100
+_xq3xx1100
+_q3xxx1100
+q3_xxx1100
+_q4xxx1100
+_xq4xx1100
+_xxq4x1100
+_xxxq41100
+_xxxxq2100
+_xxxx1q200
+_xxxxq31x0
+_xxxq3x1x0
+_xxq3xx1x0
+_xq3xxx1x0
+_q3xxxx1x0
+q3_xxxx1x0
+_q4xxxx1x0
+_xq4xxx1x0
+_xxq4xx1x0
+_xxxq4x1x0
+_xxxxq41x0
+_xxxxxq2x0
+_xxxxxxq20
+_xxxxxq3xx
+_xxxxq3xxx
+_xxxq3xxxx
+_xxq3xxxxx
+_xq3xxxxxx
+_q3xxxxxxx
+q3_xxxxxxx
+_q4xxxxxxx
+_xq4xxxxxx
+_xxq4xxxxx
+_xxxq4xxxx
+_xxxxq4xxx
+_xxxxxq4xx
+_xxxxxxq4x
+_xxxxxxxq4_
+_xxxxxxx_qacc_

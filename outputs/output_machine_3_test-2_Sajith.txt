@@ -1,0 +1,12 @@
+Machine Name: a*b*c* Nondeterministic
+Initial String: abc
+Tree Depth: 5
+Total Transitions Simulated: 25
+Measured nondeterminism: 5.0
+String accepted in 5
+q0abc
+aq0bc aq1bc aq2bc aq3bc
+abq1c abq2c abq3c abq1c abq2c abq3c aqrejbc aqrejbc
+abqrejc abcq2_ abcq3_ abqrejc abqrejc abcq2_ abcq3_ abqrejc
+abcqrej_ abc_qacc_ abcqrej_ abc_qacc_
+

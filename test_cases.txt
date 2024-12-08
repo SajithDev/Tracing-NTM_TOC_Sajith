@@ -1,0 +1,14 @@
+aaa 100 data_1_machine_Sajith.csv
+aab 100 data_1_machine_Sajith.csv
+aaa 100 data_2_machine_Sajith.csv
+aaab 100 data_2_machine_Sajith.csv
+aabcccc 100 data_3_machine_Sajith.csv
+abc 100 data_3_machine_Sajith.csv
+aabdecccc 100 data_3_machine_Sajith.csv
+aaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccc 50 data_3_machine_Sajith.csv
+abccccd 100 data_4_machine_Sajith.csv
+abcccc 100 data_4_machine_Sajith.csv
+01011100 100 data_5_machine_Sajith.csv
+01011101110 100 data_5_machine_Sajith.csv
+01011100 100 data_6_machine_Sajith.csv
+010111001011 100 data_6_machine_Sajith.csv

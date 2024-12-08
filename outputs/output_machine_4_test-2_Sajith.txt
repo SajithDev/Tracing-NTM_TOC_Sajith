@@ -1,0 +1,14 @@
+Machine Name: a*b*c* Deterministic
+Initial String: abcccc
+Tree Depth: 7
+Total Transitions Simulated: 8
+Measured nondeterminism: 1.0
+String accepted in 7
+q0abcccc
+aq1bcccc
+abq2cccc
+abcq3ccc
+abccq3cc
+abcccq3c
+abccccq3_
+abcccc_qacc_
