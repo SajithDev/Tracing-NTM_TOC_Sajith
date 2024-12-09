@@ -1,5 +1,4 @@
 import csv
-import sys
 import os
 
 def ntm_bfs(ntm, tape, depth_limit):
@@ -107,8 +106,8 @@ def output_to_csv(configs, ntm, tape, end_type, csv_writer):
 
 def main():
     prev_file = ""  # Used to keep track of count of test for each machine
-    with open('test_cases.txt', 'r') as test_file:  # Reads all the test cases and runs the NTM for each test case
-        with open('test_case_results.csv', mode='w', newline='') as csv_file:
+    with open('data_test_cases_Sajith.txt', 'r') as test_file:  # Reads all the test cases and runs the NTM for each test case
+        with open('output_table_Sajith.csv', mode='w', newline='') as csv_file:
             csv_writer = csv.writer(csv_file) 
             csv_writer.writerow([
                 'Machine Name',
