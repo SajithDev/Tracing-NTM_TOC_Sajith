@@ -2,8 +2,9 @@ import csv
 import os
 
 def ntm_bfs(ntm, tape, depth_limit):
+    # Initialize configuration levels with the start configuration
     configs = [[["", ntm['start'], tape]]]
-    level, index, end, end_type = 0, 0, False, ''
+    level, index, end, end_type = 0, 0, False, '' # Initialize variables for current state
     
     while not end:
         curr = configs[level][index]
@@ -17,7 +18,7 @@ def ntm_bfs(ntm, tape, depth_limit):
 
         if curr[1] != ntm['reject']:
             transition_made = False
-            for next in ntm[curr[1]]:
+            for next in ntm[curr[1]]: # Iterate through possible transitions
                 if next[0] == curr[2][0]:
                     transition_made = True
                     if next[3] == 'R':
@@ -25,16 +26,20 @@ def ntm_bfs(ntm, tape, depth_limit):
                             configs[level + 1].append([curr[0] + next[2], next[1], '_'])
                         else:
                             configs[level + 1].append([curr[0] + next[2], next[1], curr[2][1:]])
+
+                    # Process left-move transition
                     elif next[3] == 'L':
                         if not curr[2][1:]:
                             configs[level + 1].append([curr[0][:-1], next[1], curr[0][-1] + next[2]])
                         else:
                             configs[level + 1].append([curr[0][:-1], next[1], curr[0][-1] + next[2] + curr[2][1:]])
 
+            # If no valid transition, move to reject state
             if not transition_made:
                 configs[level + 1].append([curr[0], ntm['reject'], curr[2]])
 
         index += 1
+        # If all configurations at this level are processed, check for termination
         if index > len(configs[level]) - 1:
             end, end_type = True, 'rejected'
             for c in configs[level]:
@@ -64,7 +69,7 @@ def simulate_ntm(tape, file_name, depth_limit):
                 elif i == 4: ntm['start'] = v[0]
                 elif i == 5: ntm['accept'] = v[0]
                 elif i == 6: ntm['reject'] = v[0]
-            else:
+            else: # Other lines define state transitions
                 if v[0] not in ntm:
                     ntm[v[0]] = []
                 ntm[v[0]].append(v[1:])
