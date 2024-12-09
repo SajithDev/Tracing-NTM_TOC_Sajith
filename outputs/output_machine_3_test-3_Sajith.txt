@@ -1,8 +1,9 @@
 Machine Name: a*b*c* Nondeterministic
-Initial String: aabdecccc
-Tree Depth: 5
-Total Transitions Simulated: 26
-Measured nondeterminism: 5.2
+Input String: aabdecccc
+Result: rejected
+Depth: 5
+Total # Configurations Simulated: 26
+Average Non-Determinism: 5.2
 String rejected in 5
 q0aabdecccc
 aq0abdecccc aq1abdecccc aq2abdecccc aq3abdecccc

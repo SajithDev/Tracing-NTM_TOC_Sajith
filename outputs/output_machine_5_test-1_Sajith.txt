@@ -1,8 +1,9 @@
 Machine Name: {t | t has the same number of 0's and 1's} Nondeterministic
-Initial String: 01011100
-Tree Depth: 44
-Total Transitions Simulated: 68
-Measured nondeterminism: 1.511111111111111
+Input String: 01011100
+Result: accepted
+Depth: 44
+Total # Configurations Simulated: 68
+Average Non-Determinism: 1.511111111111111
 String accepted in 44
 q001011100
 _q11011100

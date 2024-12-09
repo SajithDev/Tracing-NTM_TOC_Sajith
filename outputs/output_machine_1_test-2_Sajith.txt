@@ -1,8 +1,9 @@
 Machine Name: a+ Nondeterministic
-Initial String: aab
-Tree Depth: 4
-Total Transitions Simulated: 8
-Measured nondeterminism: 2.0
+Input String: aab
+Result: rejected
+Depth: 4
+Total # Configurations Simulated: 8
+Average Non-Determinism: 2.0
 String rejected in 4
 q1aab
 aq1ab aq2ab

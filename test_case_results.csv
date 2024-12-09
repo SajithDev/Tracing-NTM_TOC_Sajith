@@ -1,0 +1,15 @@
+Machine Name,Input String,Result,Depth,Total # Configurations Simulated,Average Non-Determinism
+a+ Nondeterministic,aaa,accepted,5,11,2.2
+a+ Nondeterministic,aab,rejected,4,8,2.0
+a+ Deterministic,aaa,accepted,4,5,1.0
+a+ Deterministic,aaab,rejected,5,5,1.0
+a*b*c* Nondeterministic,aabcccc,accepted,9,50,5.555555555555555
+a*b*c* Nondeterministic,abc,accepted,5,25,5.0
+a*b*c* Nondeterministic,aabdecccc,rejected,5,26,5.2
+a*b*c* Nondeterministic,aaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccc,timed_out,51,427,8.211538461538462
+a*b*c* Deterministic,abccccd,rejected,8,8,1.0
+a*b*c* Deterministic,abcccc,accepted,7,8,1.0
+{t | t has the same number of 0's and 1's} Nondeterministic,01011100,accepted,44,68,1.511111111111111
+{t | t has the same number of 0's and 1's} Nondeterministic,01011101110,rejected,53,75,1.4150943396226414
+{t | t has the same number of 0's and 1's} Deterministic,01011100,accepted,43,44,1.0
+{t | t has the same number of 0's and 1's} Deterministic,010111001011,rejected,66,66,1.0

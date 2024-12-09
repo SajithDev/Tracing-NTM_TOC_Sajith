@@ -1,8 +1,9 @@
 Machine Name: a+ Nondeterministic
-Initial String: aaa
-Tree Depth: 5
-Total Transitions Simulated: 11
-Measured nondeterminism: 2.2
+Input String: aaa
+Result: accepted
+Depth: 5
+Total # Configurations Simulated: 11
+Average Non-Determinism: 2.2
 String accepted in 5
 q1aaa
 aq1aa aq2aa
